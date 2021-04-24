@@ -5,3 +5,33 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news-list{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-bottom: 20px;
+      
+}
+.news-card{
+    box-shadow: 5px 4px 8px 0 rgba(69, 70, 69, 0.2);
+    border-top: 6px solid;
+    border-radius: 5px;
+    border-color: rgb(35, 122, 35);
+    padding: 16px;
+    text-align: left;
+    background-color: white;
+    list-style-type: none;
+    
+    
+}
+h2{
+    text-align: center;
+}
+.news-img{
+    width: 100%;
+    height: 20
+}
